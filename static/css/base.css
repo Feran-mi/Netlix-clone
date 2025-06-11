@@ -1,0 +1,138 @@
+:root{
+    --primary-red: #C11119
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black  !important ;
+}
+
+.logo{
+    height: 70px
+}
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.606)), 
+   url(../img/netflix-bg.jpg) ;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    color: white;
+
+}
+
+.get-started{
+    height: 56px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: white !important;
+}
+
+.get-started::placeholder{
+    color: white !important;
+    
+}
+.reason{
+    background: #192145;
+background: linear-gradient(137deg, #192145 , rgba(31, 21, 38, 1) 99%, #210F19 44%);
+}
+
+#button{
+    background-color: var(--primary-red);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: 56px;
+}
+
+#button :hover{
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.banner-content{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+
+}
+
+.banner-content h1{
+    font-weight: 900;
+    font-size: 4rem;
+    margin: auto;
+}
+
+.one{
+    flex: 2;
+}
+
+.two{
+    flex:1;
+}
+
+.accordion-item{
+    background-color: #414141 !important;
+    margin-bottom: 0.5rem !important;
+    color: white !important;
+    font-size: 1.5rem;
+
+}
+.accordion-button{
+    background-color: #222 !important;
+    color: white !important;
+    height: 80px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #222 !important;
+    color: white !important;
+    
+}
+footer{
+    color: white;
+    font-size: 14px;
+    padding-top: 3rem;
+}
+.footer-1{
+    text-align: center;
+}
+.last-p{
+    text-align: left;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline ;
+    
+}
+
+footer .row{
+    margin-bottom: 3rem;
+}
+
+footer li{
+    list-style: none;
+    font-size: 14px;
+    
+}
+
+
+footer ul{
+    padding-left: 0;
+    
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    row-gap: 1rem;
+}
